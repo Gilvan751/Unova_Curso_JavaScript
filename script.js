@@ -16,8 +16,16 @@ for i in range(5):
 4. For ...in
 5. For...of */
 //1. for
-for (let i = 0; i <=5; i++) {
+/* for (let i = 0; i <=5; i++) {
     if (i % 2 != 0) {
         console.log('Estou aprendendo javascript!', i);        
     }
+} */
+
+//2.while
+let i = 5;
+while (i >= 1) {
+     if (i % 2 != 0) {
+        console.log('Estou aprendendo javascript!', i);        
+    } i--;
 }
