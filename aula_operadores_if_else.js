@@ -12,7 +12,7 @@ else if (condição){
 else {
 
 } */
-/* let hora = prompt('Digite o horário: ');
+let hora = prompt('Digite o horário: ');
 if (hora >= 6 && hora < 12) { 
     console.log('Bom dia');
 }
@@ -21,21 +21,4 @@ else if (hora >=12 && hora < 18) {
 }
 else {
     console.log('Boa Noite')
-} */
-
-let permissao; // comum, gerente e diretor essas são as permissões para acessar o sistema
-permissao = '';
-switch (permissao) {
-    case 'comum':
-        console.log('usuário comum');
-        break;
-    case 'gerente':
-        console.log('usuário gerente');
-        break;
-    case 'diretor':
-        console.log('usuário diretor');
-        break;
-    default:
-        console.log('Usuário não cadastrado');
-        break;
 }
