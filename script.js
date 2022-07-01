@@ -30,8 +30,18 @@ while (i >= 1) {
     } i--;
 } */
 //3.Do....while
-let i = 0;
+/* let i = 0;
 do{
     console.log('Digitando...!', i);
     i++;
-}while(i < 10)
+}while(i < 10) */
+
+//4. For ...in
+const pessoa = {
+    nome: 'Gilvan',
+    idade: 51
+};
+//chave vem da palavra em ingles key-value, chave e um valor
+for (let chave in pessoa) {
+    console.log(chave, pessoa.nome); //ou console.log(chave,pessoa['nome]);
+}
