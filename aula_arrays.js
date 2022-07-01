@@ -16,3 +16,7 @@ let nomeAmigo = [{
 
 console.log(nomeAmigo);
 console.log(nomeAmigo.length)
+
+
+
+

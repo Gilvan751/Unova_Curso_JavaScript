@@ -1,18 +1,30 @@
-// Arrays
+//tipos de referencias : Funções
+// para nomear uma função temos que colocar   vebo ++ substantivo
+// verbo + substantivo == resetaCor, alterarTamanho,
+//   reseta+Cor
+let corSite = 'Azul';
+// function resetaCor() {
+//     corSite = '';
+// };
+// console.log(corSite);
 
-let familia = [26, 45, 16,'Jhonatam', 60];
-console.log(familia[3]);
+// resetaCor();
+// console.log(corSite);
+//esse primeiro caso é sem valor argumento
 
-let nomeAmigo = [{
-    nome: 'Pedro Luiz',
-    idade: 29,
-    cidade: 'Rio de Janeiro'
-}, {
-    veiculo: 'Camaro',
-    relogio: 'Oriente',
-    quantidade_carros: 15,
-    empresas: 6
-}];
+// function resetaCor(cor, tonalidade) {
+//     corSite = cor + tonalidade;
+// };
+// console.log(corSite);
+// resetaCor('Vermelho ', ' claro');
+// console.log(corSite);
+let length = 25;
+let cor = 'green';
+let revisaTamanho = 60;
 
-console.log(nomeAmigo);
-console.log(nomeAmigo.length)
+function alterarTamanho(length, cor) { 
+    revisaTamanho = length + ' ' + cor;
+};
+console.log(revisaTamanho);
+alterarTamanho(90, 'black');
+console.log(revisaTamanho);
