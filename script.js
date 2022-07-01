@@ -1,14 +1,27 @@
-//tipos de referencias : Funções que realiza uma tarefa não devolve nada
+//tipos de Operadores Aritmeticos
+/* let salario = 100;
+// +, - , *, /, **
+console.log(salario * salario);
+console.log(salario ** salario);
+console.log(salario + salario);
+console.log(2*salario - salario);
+console.log(5 * salario / salario); */
 
-function dizerNome() {
-    console.log('Gilvan');
- };
-dizerNome();
+// ++, --  operadores de imcremento e decremento
+let idade = 18;
+/* console.log(--idade);
+console.log(idade); */
+console.log(idade--);
+console.log(idade);
+/* console.log(++idade);
+console.log(idade); */
+/* console.log(idade++);
+console.log(idade); */
 
-//faz uma operação e retorna algo
-function MultiplicaPorDois(valor) { 
-    return valor * 5;
-};
 
-let resultado = MultiplicaPorDois(9);
-console.log(resultado);
+
+
+//tipos de Operadores Atribuição
+//tipos de Operadores Comparação
+//tipos de Operadores Lógicos
+//tipos de Operadores Bitwase
