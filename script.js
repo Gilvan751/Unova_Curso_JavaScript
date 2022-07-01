@@ -1,41 +1,23 @@
-/* Expressões com condicionais, if...else, switche ...case */
-/* Se a hora estiver entre as 06:00 horas e 12:00 horas vamos exibir Bom dia,
-Se a hora estiver entre as 12:0 e as 18:00 horas vamos exibir Boa Tarde e
-Se a hora estiver fora desse horario escreva Boa noite */
 
-/* if(condição){
-    o codigo a ser executado
-}
-else if (condição){
-    condição a ser executada
-}
-else {
 
-} */
-/* let hora = prompt('Digite o horário: ');
-if (hora >= 6 && hora < 12) { 
-    console.log('Bom dia');
-}
-else if (hora >=12 && hora < 18) {
-    console.log('Boa Tarde')
-}
-else {
-    console.log('Boa Noite')
-} */
+/* Laço for */
+/* console.log('Estou aprendendo javascript!');
+console.log('Estou aprendendo javascript!');
+console.log('Estou aprendendo javascript!');
+console.log('Estou aprendendo javascript!');
+console.log('Estou aprendendo javascript!');
 
-let permissao; // comum, gerente e diretor essas são as permissões para acessar o sistema
-permissao = '';
-switch (permissao) {
-    case 'comum':
-        console.log('usuário comum');
-        break;
-    case 'gerente':
-        console.log('usuário gerente');
-        break;
-    case 'diretor':
-        console.log('usuário diretor');
-        break;
-    default:
-        console.log('Usuário não cadastrado');
-        break;
+for i in range(5):
+    console.log(i); */
+/* temos cinco tipos de for
+1. for
+2. while
+3. Do...while
+4. For ...in
+5. For...of */
+//1. for
+for (let i = 0; i <=5; i++) {
+    if (i % 2 != 0) {
+        console.log('Estou aprendendo javascript!', i);        
+    }
 }
