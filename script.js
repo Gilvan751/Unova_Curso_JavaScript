@@ -1,10 +1,14 @@
-exibirTipo(5);
+soma(15);
 
-function exibirTipo(limite) {
-    for (let i = 0; i <= limite; i++){
-        if (i % 2 === 0)
-            console.log(i, 'PAR');
-        else
-            console.log(i, 'IMPAR');
-    }
+function soma(limite) {
+    let multiploTres = 0;
+    let multiploCinco = 0;
+    for (i = 0; i <= limite; i++){
+        if (i % 3 === 0 )
+            multiploTres += i;
+        if(i % 5 === 0)
+            multiploCinco += i;
+        }
+    console.log(multiploTres + multiploCinco);
 }
+
