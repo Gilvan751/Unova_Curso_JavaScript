@@ -1,19 +1,10 @@
+exibirTipo(5);
 
-verificadorVelocidade(130);
-
-
-function verificadorVelocidade(velocidade) {
-    const valorVelocidadeMaxima = 70;
-    const KmPorPonto = 5;
-    if (velocidade <= valorVelocidadeMaxima )
-        console.log('Ok');
-    else {
-        const pontos = Math.floor(((velocidade - valorVelocidadeMaxima ) / KmPorPonto)) ;
-        if (pontos >= 12)
-            console.log('Carteira Suspensa');
+function exibirTipo(limite) {
+    for (let i = 0; i <= limite; i++){
+        if (i % 2 === 0)
+            console.log(i, 'PAR');
         else
-            console.log('Pontos ', pontos);
+            console.log(i, 'IMPAR');
     }
-    
-    
 }
