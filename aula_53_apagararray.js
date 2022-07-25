@@ -4,6 +4,11 @@ let outrosnomes = nomes;
 //nomes = [];
 //console.log(outrosnomes);
 // essa segunda maneira apaga definitivo o modelo inicial nomes.length = 0
-nomes.length = 0;
+/* nomes.length = 0;
+console.log(nomes);
+console.log(outrosnomes); */
+
+// a terceira maneira é 
+nomes.splice(0, nomes.length);
 console.log(nomes);
 console.log(outrosnomes);
