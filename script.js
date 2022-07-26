@@ -12,3 +12,4 @@ console.log(outrosnomes); */
 nomes.splice(0, nomes.length);
 console.log(nomes);
 console.log(outrosnomes);
+console.log(nomes.length)
